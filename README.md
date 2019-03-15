@@ -3,6 +3,20 @@ ___
 ## Objective
 -  Build a _**simplified**_ clone of the [Github Issues pages](https://github.com/facebook/react/issues) for the _react_ repo Using **React**, **React Router** and the **Github API**
 
+![Github Issues](./media/react_issues.png)
+___
+## Requirements
+Your clone should have the following features:
+  - a landing view with a link to 
+  - an "index" view of open _issues_ for the repo
+  - a "show" view to display the details for individual _issues_
+
+Your app will use React Router to navigate between different views.
+
+Your app will be styled to look somewhat like Github
+
+_Strive to write Components that you can reuse in multiple places in your app_
+
 ### Example Deliverable:
 
 **`/` - Landing**
@@ -22,19 +36,6 @@ ___
     - You are welcome to use the issues from another large repo if you would like to
 - use `fetch` or install and use `axios`
 - Install `react-router-dom`
-- Hack away! 
-___
-## Requirements
-Your clone should have the following features:
-  - a landing view with a link to 
-  - an "index" view of open _issues_ for the repo
-  - a "show" view to display the details for individual _issues_
-
-Your app will use React Router to navigate between different views.
-
-Your app will be styled to look somewhat like Github
-
-_Strive to write Components that you can reuse in multiple places in your app_
 
 ___
 ## Tips & Tricks
@@ -68,7 +69,9 @@ If you get stuck, follow the principles of Read, Search, Ask. Review your labs, 
 
 ___
 ## Bonuses
+Want more?
 - Roll your own pagination scheme and only show 20 issues per page on the index view
+- explore the FontAwesome Component library and use their icons in your app
 - create methods to sort by number of comments, date etc...
 - Explore `axios.all()` to bring in more issues with `?state=closed` appended to the query and make a filter to show closed issues
 - find the Pull Requests API endpoint and extend your app to include them
