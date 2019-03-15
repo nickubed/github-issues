@@ -32,7 +32,7 @@ ___
 - Study the examples and the [real live Github Issues page](https://github.com/facebook/react/issues) and review the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) article from the docs to come up with a solid plan for your components.
 - No API keys are required to access the Github Issues endpoint located here `https://api.github.com/repos/facebook/react/issues?page=1&per_page=100`
     - [Github API Docs - Issues Endpoint](https://developer.github.com/v3/issues/)
-    - Looks like the default limit is 30 issues per page... so 
+    - Looks like the limit is a return of 100 issues per call
     - You are welcome to use the issues from another large repo if you would like to
 - use `fetch` or install and use `axios`
 - Install `react-router-dom`
